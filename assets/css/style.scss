@@ -1,0 +1,64 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Mobile fix: keep the 51-state table from stretching the whole page.
+   Without this, the wide table forces the page wider than the phone
+   screen and body text clips off the right edge. */
+.main-content table {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border-collapse: collapse;
+}
+
+.main-content table th,
+.main-content table td {
+  white-space: normal;
+  vertical-align: top;
+  font-size: 0.82rem;
+  line-height: 1.4;
+  padding: 0.5rem 0.6rem;
+}
+
+/* Keep the State column pinned while scrolling sideways, so you always
+   know which row you are reading. */
+.main-content table td:first-child,
+.main-content table th:first-child {
+  position: sticky;
+  left: 0;
+  z-index: 2;
+  min-width: 6.5rem;
+  background-color: #ffffff;
+  box-shadow: 1px 0 0 rgba(0, 0, 0, 0.15);
+}
+
+.main-content table th:first-child {
+  background-color: #f2f2f2;
+}
+
+.main-content table tr:nth-child(even) td:first-child {
+  background-color: #f7f7f7;
+}
+
+/* Nothing else should be able to overflow the viewport either. */
+.main-content {
+  overflow-wrap: break-word;
+}
+
+.main-content pre,
+.main-content blockquote {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+/* Comfortable reading for someone stressed on a small screen. */
+@media screen and (max-width: 42em) {
+  .main-content {
+    font-size: 1.05rem;
+    line-height: 1.6;
+  }
+}
