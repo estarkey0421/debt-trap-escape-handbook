@@ -1,3 +1,7 @@
+---
+layout: default
+title: State Action Kits
+---
 # State Action Kits
 ### Per-state cheat sheets and template letters — companion to The Debt Trap Escape Handbook
 **Second Edition (v1.3) — July 2026**
