@@ -1,5 +1,14 @@
 # Changelog
 
+## v1.5 — August 2026 (content audit)
+- **Added Part 8 — Breaking the Cycle:** running the process across multiple loans (the normal case), **211** for acute rent/food/utility crisis, **NCUA Payday Alternative Loans** (28% APR cap, $20 max fee, no rollovers, up to $2,000) as the alternative to re-borrowing at 400%, building a minimal buffer, and a **Form 1099-C** cancellation-of-debt warning with free IRS VITA / Low Income Taxpayer Clinic referrals
+- **Added statute-of-limitations guidance to Part 6:** typically 3–6 years from last payment or default; suing on time-barred debt violates the FDCPA; a payment can restart the clock in many states; time-barred status must be raised as a defense in court
+- **Added explicit Tier 3 / Tier 4 guidance to Part 4:** a weak rate cap is not a lawless state — nearly every state still requires a lending license, so an unlicensed lender is usually still breaking the law, and every federal tool in Part 2 works identically in all 51 jurisdictions
+- Flagged multiple loans in the Quick Start intro
+- Fixed the court-summons paragraph to cite Part 4 rather than the companion State Action Kits, keeping the handbook self-contained
+- Corrected the edition date on the title block to August 2026 (it previously contradicted the changelog)
+- State Action Kits remain at v1.3 (unchanged)
+
 ## v1.4 — August 2026 (audit pass)
 - Corrected a stale internal cross-reference in Handbook Part 2, item 10: the nonprofit/help directory is **Part 7**, not Part 6 (left over from the v1.2 renumbering)
 - Full audit verified: 51 jurisdiction rows, tier counts 24/5/9/13, DC and WV reclassifications propagated to both the Handbook and all 29 State Action Kits, no placeholder text, no broken claims
