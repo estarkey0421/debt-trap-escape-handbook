@@ -1,3 +1,7 @@
+---
+layout: default
+title: The Debt Trap Escape Handbook
+---
 # The Debt Trap Escape Handbook
 ### A state-by-state guide to your rights against unlicensed, tribal, and other high-interest predatory lenders
 **Second Edition (v1.6) — August 2026**
